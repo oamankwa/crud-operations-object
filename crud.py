@@ -8,18 +8,16 @@ This is a generic crud class. It uses a dictionay to do crud operations
 
 class CreateCrud:
 
-    #ceate variabes
+    #ceate variables
     COLUMNS_ROWS = {}
-    DICT_LEN = 0
     A_LIST = [{}] 
     
 
 
 
-    #add a constuctor
-    def __init__(self, columns_rows, dict_len, new_list):
+    #add a constructor
+    def __init__(self, columns_rows, new_list):
         self.COLUMNS_ROWS = columns_rows
-        self.DICT_LEN = dict_len
         self.A_LIST = new_list
         
 
@@ -95,7 +93,7 @@ class CreateCrud:
         result = mycursor.fetchone()
         return result
     
-    #retrieve a fields by  key and value
+    #retrieve a fields by key and value
     def get_fields(self, table, columns, key, value, mycursor):
         rows = ','.join(str(x).replace('/', '_') for x in columns)
         result = mycursor.execute("SELECT %s FROM  %s WHERE %s = %s;" % (rows, table, key, value))
