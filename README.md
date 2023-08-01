@@ -1,4 +1,4 @@
-**A generic crud operations objects**
+**Generic crud operations objects**
 
 This project was intended for useability for crud operations with mysql. 
 
