@@ -6,7 +6,7 @@ Normally most crud operations are included in code which makes it difficult to r
 
 The class of this object is found in the crud.py file. Most crud operations such as create, update, retrieve, and delete can be performed by this object by instantiating the class and adding a dictionary and a list of dictionaries as parameters. Most method parameters are mostly table names and column names.
 
-Also there is a reporting object found in the reports.py file. This file mainly uses the Pandas model for reporting. There is no instantiating of this object, however, it has a method of getting data from any table and storing them in a dataframe. Therefore, using this object many data frames can be created allowing pandas dataframe to perform various operations on them.
+Also there is a reporting object found in the reports.py file. This class mainly uses the Pandas model for reporting. There is no instantiating of this object, however, it has a method of getting data from any table and storing them in a dataframe. Therefore, using this object many data frames can be created allowing pandas dataframe to perform various operations on them.
 
 
 **Features**
