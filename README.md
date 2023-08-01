@@ -14,9 +14,7 @@ Also there is a reporting object found in the reports.py file. This class mainly
 
 * Do not need to instantiate the Reporting object, however, the mysql model has to be instantiated as above. Then, various methods can be implemented as needed. A new release of this object is in the works.
 
-
 **Features**
-
 * Insert data from a csv file
 * Insert multiple rows into a table
 * Update multiple columns in a table
