@@ -22,3 +22,9 @@ Also there is a reporting object found in the reports.py file. This class mainly
 * Update multiple columns in a table
 * Merge, concatenate, and join various data frames from different tables.
 
+**Links**
+
+* Python documentary:  https://docs.python.org/3/
+* Pandas: https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html
+
+
