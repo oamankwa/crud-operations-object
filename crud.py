@@ -106,9 +106,8 @@ class CreateCrud:
     #remove a row from a table by key and value
     def delete(self, table, key, value, mycursor, mydb):
         sql= "DELETE FORM %s WHERE %s = %s;" %(table, key, value)
-        print(sql)
         mycursor.execute(sql)
-        #mydb.commit()
+        mydb.commit()
         
     
 
