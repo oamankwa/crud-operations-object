@@ -1,4 +1,4 @@
-**Generic crud operations objects**
+# Generic crud operations objects
 
 This project was intended for useability for crud operations with mysql. 
 
@@ -22,7 +22,7 @@ Also there is a reporting object found in the reports.py file. This class mainly
 
 **Links**
 
-* Python documentary:  https://docs.python.org/3/
+* Python documentation:  https://docs.python.org/3/
 * Pandas: https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html
 
 
