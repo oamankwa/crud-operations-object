@@ -12,7 +12,7 @@ Also there is a reporting object found in the reports.py file. This class mainly
 
 * Import CreateCrud from crud and mysql connector models and instantiate them. Then you can test various methods of the CreateCurd. Before that you also instantiate mysql model  e.g. mydb = mysql.connector.connect(host = ‘your servername’, user= ‘your username’ passwd = ‘your password’, database = ‘your database name’) Then get the cursor e.g mycursor = mydb.cursor(). Add mydb and mycursor as parameters when calling the methods.
 
-* Do not need to instantiate the Reporting object, however, the mysql model has to be instantiated as above. Then, various methods can be implemented as needed. A new release of this object is in the works.
+* You do not need to instantiate the Reporting object, however, the mysql model has to be instantiated as above. Then, various methods can be implemented as needed. A new release of this object is in the works.
 
 **Features**
 * Insert data from a csv file
