@@ -2,7 +2,7 @@
 
 This project was intended for useability for crud operations with mysql. 
 
-Normally most crud operations are included in code which makes it difficult to read and understand. This object will make code less difficult to read and will cut down the lines of code. Also it can be inherited and all its methods could be used. Thus, the sub class only has to include specialized methods when needed.
+Normally most crud operations are included in code which makes it difficult to read and understand, even though sqlalchemy can be use, these objects uses a dictionary, list of dictionaries, and dataframes for its implementation. These objects will make code less difficult to read and will cut down the lines of code. Also it can be inherited and all its methods could be used. Thus, the sub class only has to include specialized methods when needed.
 
 The class of this object is found in the crud.py file. Most crud operations such as create, update, retrieve, and delete can be performed by this object by instantiating the class and adding a dictionary and a list of dictionaries as parameters. Most method parameters are mostly table names and column names.
 
